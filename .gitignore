@@ -1,0 +1,53 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# === Virtual environments ===
+venv/
+.env
+.env.*
+
+# === Editor settings ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Tests ===
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# === mypy, pylint, etc ===
+.mypy_cache/
+.pylint.d/
+
+# === Docker ===
+*.pid
+*.seed
+*.db
+
+# === FastAPI / Uvicorn reload artifacts ===
+*.reload
+
+# === Scaffold / cache files (custom logic) ===
+cache.json
+scaffold.log
+
+# === Others ===
+*.bak
+*.tmp
+*.swp

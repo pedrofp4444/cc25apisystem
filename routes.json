@@ -1,0 +1,14 @@
+{
+  "/tempo": {
+    "handler": "handlers.weather:get_weather",
+    "methods": [
+      "GET"
+    ]
+  },
+  "/eventos": {
+    "handler": "handlers.events:get_events",
+    "methods": [
+      "GET"
+    ]
+  }
+}
